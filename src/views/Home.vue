@@ -1,9 +1,5 @@
 <template>
-  <div class="home">
-    <el-tag type="success">标签二</el-tag>
-
-    <van-button type="primary">主要按钮</van-button>
-  </div>
+  <div class="home">首页</div>
 </template>
 
 <script>
