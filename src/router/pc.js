@@ -1,11 +1,10 @@
-import ListIndex from '@/views/mobile/list-index'
-
-const pcRouter = [
+import JSX from '@/views/pc/jsx'
+const phRouter = [
   {
-    path: '/list-index',
-    name: 'ListIndex',
-    component: ListIndex
+    path: '/pc/jsx',
+    name: 'JSX',
+    component: JSX
   }
 ]
 
-export default pcRouter
+export default phRouter

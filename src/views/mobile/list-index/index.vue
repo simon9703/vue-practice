@@ -6,15 +6,17 @@
       <button @click="random">random</button>
       <button @click="toggle">toggle</button>
     </div>
-    <div class="virtual-scroll" :style="{height: totalHeight + 'px'}">
-      <div class="list" :style="{top: scrollDistance + 'px'}">
+    <div class="virtual-scroll" :style="{ height: totalHeight + 'px' }">
+      <div class="list" :style="{ top: scrollDistance + 'px' }">
         <div
           class="item"
           v-for="(element, index) in visiableArr"
           :key="element"
           :data-key="element"
-          :class="{show: index >= limit}"
-        >这是第{{element}}个</div>
+          :class="{ show: index >= limit }"
+        >
+          这是第{{ element }}个
+        </div>
       </div>
     </div>
   </div>

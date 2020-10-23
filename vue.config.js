@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
-    host: '0.0.0.0', // 可通过ip访问
+    host: 'localhost', // network访问地址。默认为ip访问，会导致热更新失效。
     port: 9000
   }
 }

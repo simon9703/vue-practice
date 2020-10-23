@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import PCRouter from './pc'
+import PHRouter from './ph'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -10,7 +12,8 @@ const routes = [
     name: 'Home',
     component: Home
   },
-  ...PCRouter
+  ...PCRouter,
+  ...PHRouter
 ]
 
 const router = new VueRouter({
