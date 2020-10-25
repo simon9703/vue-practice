@@ -23,6 +23,8 @@
 </template>
 
 <script>
+/* 修改list的diff算法。 */
+
 export default {
   data() {
     return {
